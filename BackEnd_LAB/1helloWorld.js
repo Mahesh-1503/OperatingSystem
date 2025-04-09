@@ -5,6 +5,6 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-rl.question(`What is your name? `, (name) => console.log(`Hello ${name}!, Welcome to the world of Node.js✅`));
-
-rl.close();
+rl.question(`What is your name? `, (name) => {console.log(`Hello ${name}!, Welcome to the world of Node.js✅`);
+    rl.close();
+});
